@@ -1,0 +1,56 @@
+.App {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0073e6;
+  color: white;
+  padding: 10px;
+}
+
+header h1 {
+  font-size: 1.5em;
+}
+
+nav a {
+  color: white;
+  text-decoration: underline;
+}
+
+section {
+  margin-top: 20px;
+}
+
+.high-contrast {
+  background-color: black;
+  color: yellow;
+}
+
+.light {
+  background-color: white;
+  color: black;
+}
+
+.dark {
+  background-color: #333;
+  color: white;
+}
+
+button {
+  margin: 10px 0;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+input[type="range"] {
+  margin-left: 10px;
+}
+
+input[type="checkbox"] {
+  margin-left: 10px;
+}
